@@ -1,0 +1,23 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        int num;
+        Console.WriteLine(" Please enter a two-digit number:");
+        num = int.Parse(Console.ReadLine());
+       
+        if (num >= 10 && num <=99)
+        {
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("EVEN");
+            }
+            else
+            {
+                Console.WriteLine("ODD");
+            }
+        }
+        Console.ReadKey();
+    }
+}
