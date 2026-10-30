@@ -18,6 +18,10 @@ class Program
                 Console.WriteLine("ODD");
             }
         }
+        else
+        {
+            Console.WriteLine("invalid number");
+        }
         Console.ReadKey();
     }
 }
